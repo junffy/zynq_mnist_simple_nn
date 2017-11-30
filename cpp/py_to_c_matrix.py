@@ -1,4 +1,3 @@
-
 # MNISTのデータをCの配列に出力し、ファイルに書き込み
 
 # coding: utf-8
@@ -18,7 +17,7 @@ f = open("mnist_data.h", 'w')
 todaytime = datetime.datetime.today()
 f.write('// mnist_data.h\n')
 strdtime = todaytime.strftime("%Y/%m/%d %H:%M:%S")
-f.write('// {0} by marsee\n'.format(strdtime))
+f.write('// {0} by jun-i\n'.format(strdtime))
 f.write("\n")
 
 f.write('ap_ufixed<8, 0, AP_TRN_ZERO, AP_SAT> t_train['+str(OUTPUT_DATA_NUM)+'][784] = {\n')

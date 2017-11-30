@@ -20,4 +20,8 @@ def view_mnist(first_offset, last_offset):
     current_view += 1
 
   plt.show()
+
+# how to use
+"""
 view_mnist(0, 10)
+"""
