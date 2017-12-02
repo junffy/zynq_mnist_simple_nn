@@ -62,11 +62,11 @@ for i in range(iters_num):
 # print(network.params['W2'])
 # print(network.params['b2'])
 
-# MAGNIFICATION = 2 ** (9-1)
-# fwrite_weight(network.params['W1'], 'af1_weight.h', 'af1_fweight', 'af1_weight', MAGNIFICATION, 784, 50)
-# fwrite_weight(network.params['W2'], 'af2_weight.h', 'af2_fweight', 'af2_weight', MAGNIFICATION, 50, 10)
-# fwrite_bias(network.params['b1'], 'af1_bias.h', 'af1_fbias', 'af1_bias', MAGNIFICATION, 50)
-# fwrite_bias(network.params['b2'], 'af2_bias.h', 'af2_fbias', 'af2_bias', MAGNIFICATION, 10)
+MAGNIFICATION = 2 ** (9-1)
+fwrite_weight(network.params['W1'], 'af1_weight.h', 'af1_fweight', 'af1_weight', MAGNIFICATION, 784, 50)
+fwrite_weight(network.params['W2'], 'af2_weight.h', 'af2_fweight', 'af2_weight', MAGNIFICATION, 50, 10)
+fwrite_bias(network.params['b1'], 'af1_bias.h', 'af1_fbias', 'af1_bias', MAGNIFICATION, 50)
+fwrite_bias(network.params['b2'], 'af2_bias.h', 'af2_fbias', 'af2_bias', MAGNIFICATION, 10)
 
 
 print()
