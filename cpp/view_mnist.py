@@ -22,6 +22,6 @@ def view_mnist(first_offset, last_offset):
   plt.show()
 
 # how to use
-"""
-view_mnist(0, 10)
-"""
+
+view_mnist(100, 120)
+
